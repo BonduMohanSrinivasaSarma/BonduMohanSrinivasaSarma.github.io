@@ -1,7 +1,7 @@
 .d1
 {
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     margin-bottom: 0px;
     margin-top: 60px;
     background-color:rgb(218, 224, 224);
@@ -9,8 +9,8 @@
 
 .d2
 {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 20vh;
+    padding-bottom: 30vh;
     border-radius: 10px;
     background-color:rgb(218, 224, 224);
 }
@@ -61,6 +61,14 @@ background: #007bb5;
     border: none;
 }
 .btn:checked
+{
+    border: none;
+}
+.navdiv
+{
+    margin:5px;
+}
+.btn::selection
 {
     border: none;
 }
